@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+    scroll-behavior: smooth;
+    scroll-margin: 1em;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1.5em 1em 1.5em 1em;
+    background-color: white;
+}
+
+.itens-navegaveis{
+    display: flex;
+    gap: 5em;
+}
+
+body{
+    background-color: #EEF7FF; 
+}
+
+
+.slide{
+
+}
