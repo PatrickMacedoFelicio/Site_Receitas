@@ -26,24 +26,26 @@
                 <h2>teste 2</h2>
             </div>
         </div>
-        <!-- slide de imagens -->
-        <div>
-            <div class="list">
-                <div class="item">
-                    <img src="">
+
+        <div class="a">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="Img/7_dicas.png" alt="Imagem 1">
+                    <img src="Img/5_pratos_classicos_caipira.png" alt="Imagem 2">
+                    <img src="Img/Comida_festa_junina.png" alt="Imagem 3">
+                    <img src="Img/Feijão_tropeiro_mineiro.png" alt="Imagem 4">
                 </div>
-                <div class="item">
-                    <img src="">
-                </div>
-                <div class="item">
-                    <img src="">
-                </div>
-                <div class="item">
-                    <img src="">
+                <button class="prev" onclick="moveToPreviousImage()">&#10094;</button>
+                <button class="next" onclick="moveToNextImage()">&#10095;</button>
+                <div class="indicators">
+                    <span class="indicator" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                    <span class="indicator" data-index="3"></span>
                 </div>
             </div>
         </div>
-
+        <script src="Javascript/slide.js"></script>
     </div>
 </body>
 </html>

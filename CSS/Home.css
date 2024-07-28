@@ -1,6 +1,6 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     text-align: justify;
     scroll-behavior: smooth;
     scroll-margin: 1em;
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     padding: 1.5em 1em 1.5em 1em;
     background-color: white;
 }
@@ -22,9 +22,100 @@
 
 body{
     background-color: #EEF7FF; 
+
 }
 
+.a{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-.slide{
+.carousel {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
 
+.carousel-images {
+    display: flex;
+    width: 400%;
+    transition: transform 1s ease;
+}
+
+.carousel-images img {
+    width: 100vw;
+    height: 480px;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: white;
+}
+
+.carousel:hover .carousel-images {
+    animation-play-state: paused;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-images {
+        width: 400%; /* Para 4 imagens */
+    }
+
+    .carousel-images img {
+        height: 300px; /* Ajuste a altura conforme necessário */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-images img {
+        height: 200px; /* Ajuste a altura conforme necessário */
+    }
+
+    .prev, .next {
+        padding: 8px; /* Reduz o tamanho dos botões em telas menores */
+    }
+
+    .indicator {
+        width: 8px;
+        height: 8px;
+    }
 }
