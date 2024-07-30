@@ -27,14 +27,14 @@ function updateCarousel() {
 updateCarousel();
 
 // Troca de imagem a cada 3 segundos (3000 milissegundos)
-let interval = setInterval(moveToNextImage, 3000);
+let interval = setInterval(moveToNextImage, 4500);
 
 document.querySelector('.carousel').addEventListener('mouseover', () => {
     clearInterval(interval);
 });
 
 document.querySelector('.carousel').addEventListener('mouseout', () => {
-    interval = setInterval(moveToNextImage, 3000);
+    interval = setInterval(moveToNextImage, 4500);
 });
 
 // Adiciona a funcionalidade de navegação pelos indicadores
