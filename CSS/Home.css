@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: justify;
     scroll-behavior: smooth;
     scroll-margin: 1em;
 }
@@ -118,4 +117,44 @@ button {
         width: 8px;
         height: 8px;
     }
+}
+
+.sessao-cards{
+    margin: 3.5vw 4vw 3.5vw 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+
+.cards-img{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2%;
+}
+
+.cards-img img{
+    max-width: 45%;
+}
+
+.section-azul{
+    background-color: #427D9D;
+    padding: 3.5vw 4vw 3.5vw 4vw;
+}
+
+.section-azul h1{
+    color: #DDF2FD;
 }
