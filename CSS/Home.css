@@ -10,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
-    padding: 1.5em 1em 1.5em 1em;
+    padding: 1.5vw 1vw 1.5vw 1vw;
     background-color: white;
 }
 
@@ -151,9 +151,55 @@ button {
 
 .section-azul{
     background-color: #427D9D;
-    padding: 3.5vw 4vw 3.5vw 4vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-azul h1{
     color: #DDF2FD;
+}
+
+
+
+.sessao-cads-comida{
+
+}
+
+.slide-da-sessao-card{
+
+}
+
+.card-wrapper{
+
+}
+
+.cards-comida{
+    background-color: white;
+    max-width: 23vw;
+}
+
+.cards-comida .img-box{
+    height: 14.7vw;
+}
+
+.cards-comida .img-box img{
+    height: 100%;
+}
+
+.cards-comida .escrita-car{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+}
+
+.cards-comida .escrita-car img{
+    height: 40px;
+    width: 40px;
+}
+
+.escrita-car .titulo-card h3{
+    font-size: 1.7vw;
 }
