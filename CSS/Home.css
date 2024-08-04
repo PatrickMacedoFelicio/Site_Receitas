@@ -44,7 +44,6 @@ body{
 
 .carousel-images img {
     width: 100vw;
-    height: 480px;
     object-fit: cover;
 }
 
@@ -131,8 +130,8 @@ button {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 250px;
-    height: 250px;
+    width: 15vw;
+    height: 15vw;
     background-color: white;
     border-radius: 1vw;
 }
