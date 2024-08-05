@@ -51,7 +51,7 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(138, 138, 138, 0.5);
     color: white;
     border: none;
     padding: 10px;
@@ -118,3 +118,116 @@ button {
     }
 }
 
+.sessao-cards{
+    margin: 3.5vw 4vw 3.5vw 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 14vw;
+    height: 14vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+
+.cards-img{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2%;
+}
+
+.cards-img img{
+    max-width: 45%;
+}
+
+.section-azul{
+    background-color: #427D9D;
+    padding: 2vw 3vw 2vw 3vw;
+}
+
+.section-azul h1{
+    color: #DDF2FD;
+}
+
+
+.carrosel-cards {
+    position: relative;
+    max-width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+}
+
+.caros {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cartas {
+    min-width: 25%; /* Ajuste esse valor para mostrar mais ou menos cards na tela */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    margin: 1vw;
+}
+
+.cartas img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.previ-btn, .nexts-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.previ-btn {
+    left: 10px;
+}
+
+.nexts-btn {
+    right: 10px;
+}
+
+.previ-btn:hover, .nexts-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #333;
+}
