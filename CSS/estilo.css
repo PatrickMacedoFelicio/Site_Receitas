@@ -119,5 +119,77 @@ html,
   }
 
   .sessao-azul{
-    background-color: cornflowerblue;
+    background-color: #4D869C;
+    padding: 3vw 1vw;
   }
+
+  .carousel-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card {
+    min-width: 20%; 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container-dos-cards{
+  margin: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.cardes-comidas{
+  background-color: #fff;
+  width: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px 0.2px rgba(20, 0, 34, 0.1);
+}
+
+.cardes-comidas img{
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.cardes-comidas-part{
+  float: right;
+  width: 30px;
+  position: relative;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.bt-cards{
+  float: left;
+  width: 50%;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #7AB2B2;
+}
