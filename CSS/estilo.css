@@ -118,8 +118,8 @@ html,
       max-width: 45%;
   }
 
-  .sessao-azul{
-    background-color: #4D869C;
+  .sessao-laranja{
+    background-color: #FF9B50;
     padding: 3vw 1vw;
   }
 
@@ -148,6 +148,10 @@ html,
 .card img {
     width: 100%;
     border-radius: 5px;
+}
+
+.cards h1{
+  color: #464646;
 }
 
 .container-dos-cards{
@@ -191,5 +195,5 @@ html,
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
-  background-color: #7AB2B2;
+  background-color: #E25E3E;
 }
