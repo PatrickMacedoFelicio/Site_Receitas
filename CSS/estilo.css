@@ -5,7 +5,7 @@ html,
     }
 
     body {
-      background: #eee;
+      background: #fff6ef;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
@@ -25,6 +25,18 @@ html,
   .itens-navegaveis{
       display: flex;
       gap: 5em;
+  }
+
+  .titulo{
+    color: white;
+    font-size: 2.2vw;
+    text-align: center;
+  }
+
+  .titulo-laranja{
+    color: #E25E3E;
+    font-size: 2.2vw;
+    text-align: center;
   }
 
     .swiper {
@@ -103,8 +115,13 @@ html,
       height: 14vw;
       background-color: white;
       border-radius: 1vw;
-  }
-  
+  }  
+
+  .cards :hover{
+    cursor: pointer;
+    transition: 0.1s;
+    color: #E25E3E;
+  } 
   
   .cards-img{
       border-radius: 50px;
@@ -120,7 +137,7 @@ html,
 
   .sessao-laranja{
     background-color: #FF9B50;
-    padding: 3vw 1vw;
+    padding: 1.5vw 1vw;
   }
 
   .carousel-container {
@@ -163,6 +180,7 @@ html,
 }
 
 .cardes-comidas{
+  margin: 0;
   background-color: #fff;
   width: 350px;
   border-radius: 20px;
@@ -173,7 +191,7 @@ html,
 .cardes-comidas img{
   width: 100%;
   border-radius: 10px;
-  height: 250px;
+  height: 230px;
 }
 
 .cardes-comidas-part{
@@ -196,4 +214,9 @@ html,
   cursor: pointer;
   font-size: 20px;
   background-color: #E25E3E;
+}
+
+.bt-cards:hover{
+  transition: 0.1s;
+  background-color: #ff8667;
 }
