@@ -56,26 +56,27 @@ body {
 }
 
 .foto-esquerda{
-    width: 300px;
+    width: 16vw;
     border-radius: 50%;
     margin-right: 80px;
 }
 
 .bloco-desc-ad{
     justify-content: flex-start;
-    margin-left: 240px;
+    
+    margin-left: 6vw
 }
 
 .titulo-ad{
-    margin-right: 30%;
+    margin: 1vw 0;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 200%;
+    font-size: 1.1vw;
     color: #E25E3E;
 }
 
 .resenha-ad{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 120%;
+    font-size: 1.2vw;
     color: #E25E3E;
     text-align: justify;
 }
@@ -94,27 +95,26 @@ body {
 }
 
 .foto-direita{
-    width: 300px;
+    width: 16vw;
     border-radius: 50%;
     margin-left: 80px;
 }
 
 .bloco-desc-ae{
     justify-content: flex-start;
-    margin-right: 240px;
-    
+    margin-right: 6vw;
 }
 
 .titulo-ae{
-    margin-right: 30%;
+    margin: 1vw 0;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 200%;
+    font-size: 1.1vw;
     color: #fff6ef;
 }
 
 .resenha-ae{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 120%;
+    font-size: 1.2vw;
     color: #fff6ef;
     text-align: justify;
 }

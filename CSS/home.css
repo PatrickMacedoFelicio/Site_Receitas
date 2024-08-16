@@ -27,6 +27,53 @@ html,
       gap: 5em;
   }
 
+  .duas-colunas{
+    gap: 4vw;
+    margin: 2vw 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .margem{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8vw 2.5vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .margem p{
+    font-size: 1.2vw;
+    text-align: justify;
+   }
+ 
+
+  .duas-colunas p{
+   font-size: 1.2vw;
+   text-align: justify;
+  }
+
+  .duas-colunas img{
+    width: 23vw;
+    border-radius: 0.6vw;
+   }
+
+   .bt{
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    background-color: #E25E3E;
+    padding: 0.4vw 1vw;
+  }
+
+  .bt:hover{
+    transition: 0.1s;
+    background-color: #ff7b5b;
+  }
+
   .titulo{
     color: white;
     font-size: 2.2vw;
@@ -37,6 +84,11 @@ html,
     color: #E25E3E;
     font-size: 2.2vw;
     text-align: center;
+  }
+
+  .titulo-Left{
+    color:  #E25E3E;
+    font-size: 1.7vw;
   }
 
     .swiper {
