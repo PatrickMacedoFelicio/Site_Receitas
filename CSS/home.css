@@ -158,22 +158,7 @@
       margin: 3.5vw 4vw 3.5vw 4vw;
       display: flex;
       justify-content: space-between;
-  }
-  
-  .redes{
-    justify-content: flex-start;
-    display:flex;
-    gap: 3vw;
-    max-width: 1px;
-  }
-
-  
-  .logo {
-    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-    border-radius: 50%; /* Faz a imagem ficar circular */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
-  }
+    }
 
 
   .cards{
@@ -293,6 +278,11 @@
   background-color: #ff8667;
 }
 
+
+
+
+/* Área do Rodapé */
+
 .rodapé{
   margin: 0 5vw;
   display: flex;
@@ -368,6 +358,24 @@
     padding: 0.4vw 1vw;
 }
 
+.redes{
+  justify-content: flex-start;
+  display:flex;
+  gap: 3vw;
+  max-width: 1px;
+}
+
+
+.logo {
+  width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+  border-radius: 50%; /* Faz a imagem ficar circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+/* Final do Rodapé*/
+
+
 
 .banner { 
   background-image: url(./img/Feijão_tropeiro_mineiro.png); 
@@ -388,4 +396,3 @@
 li {
   list-style-position: inside;
 }
-
