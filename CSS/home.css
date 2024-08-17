@@ -1,4 +1,8 @@
-html,
+    *{
+      scroll-behavior: smooth;
+    }
+
+
     body {
       position: relative;
       height: 100%;
@@ -156,6 +160,22 @@ html,
       justify-content: space-between;
   }
   
+  .redes{
+    justify-content: flex-start;
+    display:flex;
+    gap: 3vw;
+    max-width: 1px;
+  }
+
+  
+  .logo {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+  }
+
+
   .cards{
       text-align: center;
       padding: 0.5vw;
@@ -273,6 +293,82 @@ html,
   background-color: #ff8667;
 }
 
+.rodapé{
+  margin: 0 5vw;
+  display: flex;
+  align-items: start;
+  gap: 4vw;
+  justify-content: space-between;
+}
+
+.quadrado-maps{
+  max-width: 33vw;
+  height: 30vw;
+  border-radius: 1vw;
+  box-shadow: 0 10px 20px 0.2px rgba(20, 0, 34, 0.1);
+}
+
+.contato{
+  display: flex;
+  align-items: center;
+  
+  margin-top: 3vw;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.area-contato{
+  width: 50vw;
+}
+
+.area-contato p{
+  color: white;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.contact-inputs{
+  font-size: 1vw;
+  width: 40vw;
+  height: 3vw;
+  border: none;
+  outline: none;
+  padding-left: 2vw;
+  font-weight: 500;
+  color: #000;
+  border-radius: 0.5vw;
+}
+
+.contact-left textarea{
+  padding-top: 1vw;
+  width: 40vw;
+  height: 10vw;
+  border: none;
+  outline: none;
+  padding-left: 2vw;
+  font-weight: 500;
+  color: #000;
+  border-radius: 0.5vw;
+}
+
+.bt-contato{
+    width: 15vw;
+    height: 3vw;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    background-color: #E25E3E;
+    padding: 0.4vw 1vw;
+}
+
+
 .banner { 
   background-image: url(./img/Feijão_tropeiro_mineiro.png); 
   background-position: center; 
@@ -292,3 +388,4 @@ html,
 li {
   list-style-position: inside;
 }
+
