@@ -13,13 +13,6 @@
     display: flex;
     gap: 5em;
 }
-
-.banner { 
-    background-image: url(./img/Feijão_tropeiro_mineiro.png); 
-    background-position: center; 
-    background-size: cover;
-    height: 300px;
-  }
   
   .card {
     width: 600px;
@@ -30,6 +23,3 @@
     border-radius: 10px;
   }
   
-  li {
-    list-style-position: inside;
-  }
