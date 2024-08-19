@@ -18,17 +18,29 @@ body {
 }
 
 .nav-bar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 100%;
-    padding: 0.5vw 0.25vw 0.5vw 0.25vw;
-    background-color: white;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  padding: 0.5vw 0.25vw 0.5vw 0.25vw;
+  background-color: white;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: #464646;
+  font-size: 1vw;
+  font-weight: 500;
+}
 
 .itens-navegaveis{
-    display: flex;
-    gap: 5em;
+  display: flex;
+  gap: 6em;
+}
+
+.itens-navegaveis a:hover{
+transition: 0.2s;
+color: #E25E3E;
 }
   
 .titulo{
