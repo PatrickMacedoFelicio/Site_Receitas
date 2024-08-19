@@ -245,6 +245,10 @@
   box-shadow: 0 10px 20px 0.2px rgba(20, 0, 34, 0.1);
 }
 
+.cardes-comidas p{
+ text-align: justify;
+}
+
 .cardes-comidas img{
   width: 100%;
   border-radius: 10px;
@@ -361,15 +365,14 @@
 .redes{
   justify-content: flex-start;
   display:flex;
-  gap: 3vw;
+  gap: 16vw;
   max-width: 1px;
 }
 
 
 .logo {
   width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
-  border-radius: 50%; /* Faz a imagem ficar circular */
+  height: 50px; /* Ajuste o tamanho da imagem conforme necessário *//* Faz a imagem ficar circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
 }
 
