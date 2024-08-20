@@ -26,11 +26,31 @@
       background-color: white;
     }
 
+    .form{
+      display: flex;
+      gap: 0.5vw;
+    }
+    
+    .input{
+      width: 13vw;  
+      height: 1.6vw;
+      border-radius: 0.5vw;
+      border-color: #ff8667;
+    }
+
+    
+
     .nav-bar a{
       text-decoration: none;
       color: #464646;
       font-size: 1vw;
       font-weight: 500;
+    }
+
+    .tamanho{
+      display: flex;
+      justify-content: center;
+      width: 16vw;
     }
   
   .itens-navegaveis{
@@ -50,6 +70,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
 
   .margem{
     display: flex;
