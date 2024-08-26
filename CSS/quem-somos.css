@@ -14,12 +14,17 @@ body {
 
  
   .nav-bar{
+    height: 2.8vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
     padding: 0.5vw 0.25vw 0.5vw 0.25vw;
     background-color: white;
+  }
+
+  .nav-bar img{
+    width: 8.5vw;
   }
 
   .nav-bar a{
@@ -64,9 +69,11 @@ body {
     display: flex;
 }
 
-.fae{
-
-}
+.tamanho{
+    display: flex;
+    justify-content: center;
+    width: 16vw;
+  }
 
 .foto-esquerda{
     width: 16vw;
@@ -101,10 +108,6 @@ body {
     display: flex;
     background-color: #E25E3E;
     box-shadow: 5px 10px 18px #888888;
-}
-
-.fad{
-
 }
 
 .foto-direita{
