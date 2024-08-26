@@ -18,12 +18,17 @@
     }
 
     .nav-bar{
+      height: 2.8vw;
       display: flex;
       justify-content: space-around;
       align-items: center;
       max-width: 100%;
       padding: 0.5vw 0.25vw 0.5vw 0.25vw;
       background-color: white;
+    }
+
+    .nav-bar img{
+      width: 8.5vw;
     }
 
     .form{
