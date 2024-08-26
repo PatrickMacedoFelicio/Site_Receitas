@@ -23,6 +23,10 @@ body {
   width: 16vw;
 }
 
+.slide-tamanho{
+  max-width: 100%;
+}
+
 .nav-bar{
   height: 2.8vw;
   display: flex;
@@ -146,3 +150,123 @@ color: #E25E3E;
     transition: 0.1s;
     background-color: #ff8667;
 }
+
+.margem{
+  display: flex;
+  flex-direction: column;
+  margin: 1vw 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.margem p{
+  font-size: 1.1vw;
+}
+
+.margem h1{
+  margin: 0;
+}
+
+.titulo-laranja{
+  color: #E25E3E;
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+/* Área do Rodapé */
+
+.rodapé{
+  margin: 0 5vw;
+  display: flex;
+  align-items: start;
+  gap: 4vw;
+  justify-content: space-between;
+}
+
+.quadrado-maps{
+  max-width: 33vw;
+  height: 30vw;
+  border-radius: 1vw;
+  box-shadow: 0 10px 20px 0.2px rgba(20, 0, 34, 0.1);
+}
+
+.contato{
+  display: flex;
+  align-items: center;
+  
+  margin-top: 3vw;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.area-contato{
+  width: 50vw;
+}
+
+.area-contato p{
+  color: white;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.contact-inputs{
+  font-size: 1vw;
+  width: 40vw;
+  height: 3vw;
+  border: none;
+  outline: none;
+  padding-left: 2vw;
+  font-weight: 500;
+  color: #000;
+  border-radius: 0.5vw;
+}
+
+.contact-left textarea{
+  padding-top: 1vw;
+  width: 40vw;
+  height: 10vw;
+  border: none;
+  outline: none;
+  padding-left: 2vw;
+  font-weight: 500;
+  color: #000;
+  border-radius: 0.5vw;
+}
+
+.bt-contato{
+    width: 15vw;
+    height: 3vw;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    background-color: #E25E3E;
+    padding: 0.4vw 1vw;
+}
+
+.redes{
+  justify-content: flex-start;
+  display:flex;
+  gap: 16vw;
+  max-width: 1px;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px; 
+}
+
+.sessao-laranja{
+  background-color: #FF9B50;
+  padding: 1.5vw 1vw;
+}
+
+/* Final do Rodapé*/
