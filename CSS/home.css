@@ -198,6 +198,9 @@
       justify-content: space-between;
     }
 
+    .sessao-cards a{
+      text-decoration: none;
+    }
 
   .cards{
       text-align: center;

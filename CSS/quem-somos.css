@@ -153,3 +153,7 @@ body {
     border-radius: 50%; /* Faz a imagem ficar circular */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
 }
+
+.sessao-cards a{
+    text-decoration: none;
+  }
