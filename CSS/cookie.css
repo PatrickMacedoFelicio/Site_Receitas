@@ -1,0 +1,225 @@
+ody {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #ff8667;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  
+  .nav-bar{
+    height: 2.8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 0.5vw 0.25vw 0.5vw 0.25vw;
+    background-color: white;
+  }
+
+  .nav-bar img{
+    width: 8.5vw;
+  }
+
+  .form{
+    display: flex;
+    gap: 0.5vw;
+  }
+  
+  .input{
+    width: 14.5vw;  
+    height: 1.85vw;
+    padding: 0vw 0.5vw;
+    font-size: 0.8vw;
+    border-radius: 0.3vw;
+    border-color: #ff8667;
+    border: 2px solid #ff8667;  
+  }
+
+  .bt-Lupa button{
+    background-color: #E25E3E;
+    border: none;
+    color: white;
+    border-radius: 0.25vw;
+    padding: 0.35vw 0.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .bt-Lupa img{
+    width: 1vw;
+  }
+  
+
+  .nav-bar a{
+    text-decoration: none;
+    color: #464646;
+    font-size: 1vw;
+    font-weight: 500;
+  }
+
+  .tamanho{
+    display: flex;
+    justify-content: center;
+    width: 16vw;
+  }
+
+.itens-navegaveis{
+    display: flex;
+    gap: 6em;
+}
+
+.itens-navegaveis a:hover{
+  transition: 0.2s;
+  color: #E25E3E;
+}
+
+
+
+.rodapé{
+    margin: 0 5vw;
+    display: flex;
+    align-items: start;
+    gap: 4vw;
+    justify-content: space-between;
+  }
+  
+  .quadrado-maps{
+    max-width: 33vw;
+    height: 30vw;
+    border-radius: 1vw;
+    box-shadow: 0 10px 20px 0.2px rgba(20, 0, 34, 0.1);
+  }
+  
+  .contato{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 3vw;
+  }
+  
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  
+  .area-contato{
+    width: 50vw;
+  }
+  
+  .area-contato p{
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+  }
+  
+  .contact-inputs{
+    font-size: 1vw;
+    width: 40vw;
+    height: 3vw;
+    border: none;
+    outline: none;
+    padding-left: 2vw;
+    font-weight: 500;
+    color: #000;
+    border-radius: 0.5vw;
+  }
+  
+  .contact-left textarea{
+    padding-top: 1vw;
+    width: 40vw;
+    height: 10vw;
+    border: none;
+    outline: none;
+    padding-left: 2vw;
+    font-weight: 500;
+    color: #000;
+    border-radius: 0.5vw;
+  }
+  
+  .bt-contato{
+      width: 15vw;
+      height: 3vw;
+      color: white;
+      border: none;
+      border-radius: 0.5vw;
+      cursor: pointer;
+      font-size: 1.2vw;
+      background-color: #E25E3E;
+      padding: 0.4vw 1vw;
+  }
+  
+  .redes{
+    justify-content: flex-start;
+    display:flex;
+    gap: 16vw;
+    max-width: 1px;
+  }
+  
+  
+  .logo {
+    width: 50px;
+    height: 50px; 
+  }
+
+
+
+/* os cookies */
+
+.bam{
+  justify-content: center;
+  display:flex;
+  border-radius: 2px;
+  margin-right: 320px;
+  margin-left: 320px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+}
+
+.fam{
+
+}
+
+.ipr{
+
+}
+
+.mdp{
+
+}
+
+ul {
+  list-style-type: square;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Estilo adicional para os ingredientes */
+li::before {
+  content: "🍪"; /* Emoji de cookie antes de cada ingrediente */
+  margin-right: 10px;
+}
