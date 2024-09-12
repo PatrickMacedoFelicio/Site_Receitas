@@ -177,49 +177,55 @@ ody {
 /* os cookies */
 
 .bam{
-  justify-content: center;
-  display:flex;
-  border-radius: 2px;
-  margin-right: 320px;
-  margin-left: 320px;
-  margin-top: 120px;
-  margin-bottom: 20px;
+  border-radius: 2%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
   background-color: antiquewhite;
+  height: auto;
 }
 
-.fam{
+.image-container {
+  width: 100%;
+  height: 500px; /* ajuste conforme necessário */
+  overflow: hidden;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
 
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* para preencher a div sem distorcer */
 }
 
 .ipr{
+  margin-left: 10% ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .mdp{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background-color: #E25E3E;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.plist{
+  margin-left: 10% ;
 
 }
 
 ul {
   list-style-type: square;
-  background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
   max-width: 400px;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 li {
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
 }
 
-li:last-child {
-  border-bottom: none;
-}
 
-/* Estilo adicional para os ingredientes */
-li::before {
-  content: "🍪"; /* Emoji de cookie antes de cada ingrediente */
-  margin-right: 10px;
-}
