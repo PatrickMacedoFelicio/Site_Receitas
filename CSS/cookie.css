@@ -4,7 +4,7 @@ ody {
   }
 
   body {
-    background: #ff8667;
+    background: #FF9B50;
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -181,7 +181,7 @@ ody {
   margin-top: 5%;
   margin-right: 10%;
   margin-left: 10%;
-  background-color: antiquewhite;
+  background-color: rgb(255, 246, 235);
   height: auto;
 }
 
@@ -201,21 +201,42 @@ ody {
 
 .ipr{
   margin-left: 10% ;
+  margin-right: 10%;
+  text-align: justify;
+  padding: 0vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
+.ipr h1{
+  color: #E25E3E;
+  font-size: 1.8vw;
+}
+
+.ipr li{
+  font-size: 0.9vw;
+}
+
+
+
 .mdp{
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
   align-items: center;
   justify-content: space-around;
-  display: flex;
-  background-color: #E25E3E;
+  background-color:#ffffff;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 1vw;
+  border-radius: 0 0 1vw 1vw;
+}
+
+.mdp h1{
+  color: #E25E3E;
+  font-size: 1.8vw;
 }
 
 .plist{
   margin-left: 10% ;
-
 }
 
 ul {
